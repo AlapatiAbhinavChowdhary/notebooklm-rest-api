@@ -1,4 +1,5 @@
-# Google NotebookLM REST Gateway API
+# Google NotebookLM REST API wrapper
+# Namhyeon Go <gnh1201@catswords.re.kr>
 # https://github.com/gnh1201/notebooklm-rest-api
 import os
 import uuid
